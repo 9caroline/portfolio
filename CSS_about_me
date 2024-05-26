@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin: 20px;
+}
+
+.facts {
+    border: yellow;
+    margin: 10px;
+    color: blueviolet;
+}
+
+.gallery {
+    position: relative;
+    opacity: 0.4;
+    width: 300px;
+    height: 180px;
+}
+
+.gallery:hover {
+    opacity: 1;
+    border: 6px solid yellow;
+    height: 220px;
+    width: 330px;
+    padding: 5px;
+    transition: all 0.5s ease-out;
+}
