@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+
+header {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+main a {
+    text-decoration: none;
+    font-size: 15px;
+    color: green;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin: 20px;
+}
